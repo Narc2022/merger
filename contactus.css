@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+p.contactpage {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+
+p.contactpageline1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+p.contactpageline2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.contact-us {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+p.contactpageline4 {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/*   
+  .contact-us p {
+    margin: 16px 0;
+  } */
+
+.contact-us a {
+    color: black;
+
+    text-decoration: none;
+}
+
+
+.spacer {
+    height: 56px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.form-row {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+input,
+textarea,
+button {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+    gap: 10px;
+    align-self: stretch;
+
+
+}
+.button-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif; /* Add a fallback font */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #ccc; /* Default border color */
+  outline: none; /* Removes the default blue border on focus */
+  padding: 10px;
+  border-radius: 4px;
+  font-family: Inter, sans-serif; /* Optional */
+}
+
+/* Prevent border change on focus */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 1px solid #ccc; /* Same as default */
+  outline: none; /* Ensures no extra highlight */
+}
+
+@media (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+    }
+}
